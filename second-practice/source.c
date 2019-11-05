@@ -6,7 +6,7 @@ int main(int argc, char *argv[]){
  char str[40];
 
  printf("Please enter an integer: ");
- scanf("%d", &integer);
+ scanf("%d", &integer); //scan takes symbolic and address
  printf("Please enter a string: ");
  scanf("%s", str);
  printf("You entered: %d and %s.\n", integer, str);
