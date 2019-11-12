@@ -14,11 +14,11 @@ int main(int argc, char *argv[]){
    for(; n < argc; n++){//for the count of arguments do:
     if(n % 2 == 1){//should be numbers on every odd place of arguments 
        iterator_a = atof(argv[n]);//go through each argument
-       if(op == ' '){static_b = iterator_a;}
-       else if(op == '+'){static_b += iterator_a;}
-       else if(op == '-'){static_b -= iterator_a;}
-       else if(op == '*'){static_b *= iterator_a;}
-       else if(op == '/'){static_b /= iterator_a;}
+       if(op == ' '){static_b = iterator_a;}//assign number
+       else if(op == '+'){static_b += iterator_a;}//add if addition was the last operation read
+       else if(op == '-'){static_b -= iterator_a;}//subtract if subtraction was the last operation read
+       else if(op == '*'){static_b *= iterator_a;}//multiply if multiplication was the last operation read
+       else if(op == '/'){static_b /= iterator_a;}//divide if division was the last operation read
     }//end if
     else{//argument place is even, should be an operator
        if(*argv[n] == '+'){ op = '+';} //addition
