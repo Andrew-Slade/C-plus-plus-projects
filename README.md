@@ -3,3 +3,5 @@ A workup directed towards learning concepts in HPC. Starting with the basics and
 
 # Notable programs:
   >600 character automaton style calculator using cli
+  >a compiler being built
+  >a regex evaluation library
