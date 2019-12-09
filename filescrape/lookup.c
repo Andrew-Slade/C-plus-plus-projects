@@ -4,6 +4,7 @@
 
 /**
 * Check a file for a substring
+* takes a phrase, a filename, and and a phrase size
 **/
 int lookup(char phrase[], char filename[], int phraseSize){
 
