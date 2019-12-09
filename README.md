@@ -4,4 +4,4 @@ A workup directed towards learning concepts in operating systems. Starting with 
 # Notable programs:
   * 600 character automaton style calculator using cli<br>
   * an interpreter being built<br>
-  * a regex evaluation library<br>
+  * a search library for files<br>
