@@ -14,6 +14,7 @@ int lookup(char phrase[], char filename[], int phraseSize){
    char buffer[SIZE];
    char firstCharacter = phrase[0];
    int marker = 0; //marker for a full match
+   int occurence = -1; //marker for file containing a phrase
 
 
    filepointer = fopen(filename, "r"); //opening the file
@@ -41,11 +42,15 @@ int lookup(char phrase[], char filename[], int phraseSize){
               if(marker = 1){
                  printf("Line: %s", buffer);
                  printf("%s is in the line\n\n", phrase);
+                 occurence = 1;//an occurence of the phrase is found 
               }
            }
         } 
      }
    }
    fclose(filepointer);//close the file
+   if(occurence != 1){
+      printf("No occurences found\n");
+   }
  return 0;
 }//end lookup
