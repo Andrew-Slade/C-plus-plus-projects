@@ -2,7 +2,6 @@
 #include <stdio.h>
 
 int main(void){
-   char myChar = test();
-   printf("%c\n", myChar); //a test of returning values and headers
+   lookup("hello", "test.a");
  return 0;
 }

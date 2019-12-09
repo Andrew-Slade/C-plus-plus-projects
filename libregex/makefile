@@ -1,2 +1,2 @@
-make: main.c test.c
-	gcc -o application main.c test.c
+make: main.c lookup.c
+	gcc -o application main.c lookup.c

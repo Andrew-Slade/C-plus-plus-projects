@@ -2,6 +2,6 @@
 #define LIBREGEX
 
 //define functions here
-char test(); //second test function
+void lookup(char[], char[]);
 
 #endif //LIBREGEX
