@@ -5,3 +5,9 @@ A workup directed towards learning concepts in operating systems. Starting with 
   * 600 character automaton style calculator using cli<br>
   * an interpreter being built<br>
   * a search library for files<br>
+
+# Applications
+  * filescraper - scrapse a file for a phrase
+  ```
+    filescraper (phrase) (filename)
+  ```
